@@ -1,0 +1,209 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+/* Global Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #f8f9fa;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.hero p {
+  font-size: 20px;
+  font-weight: 300;
+  color: #666;
+}
+
+.hero .btn {
+  font-size: 18px;
+  padding: 12px 32px;
+  margin-top: 30px;
+  text-decoration: none;
+}
+
+/* Program Details Section */
+#program-details {
+  background-color: #fff;
+  padding: 80px 0;
+  text-align: center;
+}
+
+#program-details h2 {
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+#program-details p {
+  font-size: 18px;
+  font-weight: 300;
+  color: #666;
+}
+
+/* Animations */
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+/* Curriculum Section */
+#curriculum {
+    background-color: #f7f7f7;
+    padding: 50px;
+  }
+  
+  #curriculum h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  #curriculum .card-header {
+    background-color: #fff;
+  }
+  
+  #curriculum .card-header h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  
+  #curriculum .card-header button {
+    width: 100%;
+    text-align: left;
+  }
+  
+  #curriculum .card-body ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  #curriculum .card-body p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  /* About Bootcamp Section */
+  #about-bootcamp {
+    background-color: #e9ecef;
+    padding: 50px;
+  }
+  
+  #about-bootcamp h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  #about-bootcamp p {
+    font-size: 20px;
+    color: #666;
+  }
+  
+  /* Why This Bootcamp Section */
+  #why-bootcamp {
+    background-color: #f7f7f7;
+    padding: 50px;
+  }
+  
+  #why-bootcamp h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  #why-bootcamp ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  #why-bootcamp li {
+    font-size: 20px;
+    color: #666;
+  }
+  
+  /* Bootcamp Outcomes Section */
+  #bootcamp-outcomes {
+    background-color: #e9ecef;
+    padding: 50px;
+  }
+  
+  #bootcamp-outcomes h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  #bootcamp-outcomes ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  #bootcamp-outcomes li {
+    font-size: 20px;
+    color: #666;
+  }
+  
+  /* Bootcamp Process Section */
+  #bootcamp-process {
+    background-color: #f7f7f7;
+    padding: 50px;
+  }
+  
+  #bootcamp-process h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  #bootcamp-process ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+  }
+  
+  #bootcamp-process li {
+    font-size: 20px;
+    color: #666;
+  }
+  
+  /* Footer Section */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 16px;
+  }
+
+  
